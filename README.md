@@ -3,6 +3,8 @@ This is a workaround for the [lack of out-of-box ability](https://ideas.salesfor
 
 Name your Quick Action using the following format:
 
-QuickActionName_XXX_ParamVal
+**QuickActionName_XXX_ParamVal**
 
-Example: a quick action with API Name Quickie_XXX_Foo created on Account object
+Example: a quick action with API Name **Quickie_XXX_Foo** created on Account object
+
+For the above example, the LWC will parse Foo off the Quick Action API Name.
